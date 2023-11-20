@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio website</title>
+
+  <!--box icons-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--custom css-->
+
+  <link rel="stylesheet" href="se.css">
+</head>
+<body>
+   <!--header  desing-->
+    <header class="header">
+      <a href="#" class="logo"> 
+        Nurture Orphan</a>
+      
+      <i class='bx bx-menu' id="menu-icon"></i>
+       <nav class="navbar">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About us</a>
+          <a href="#Login">Login</a>
+          <a href="#Donate">Donate</a>
+          <a href="#contact">contact</a>
+       </nav>
+    
+    </header>
+    
+    <!--home section desing-->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h2></h2>
+        <h1></h1>
+        <img src="BLOG (1).png" alt="" height="600" width="1000">
+        </img>
+        
+      </div>
+    </section>
+
+
+
+
+
+    <!--about section desin-->
+     <section class="about" id="about">
+      <div class="about-img">
+        <img src="th2.png" alt="" height="350">
+      </div>
+      <div class="about-content">
+        <h1 class="heading">About <span>us</span></h1>
+        <p>Nurture Orphan is an all-encompassing platform facilitating support for orphan homes and underprivileged children. Serving as a central hub, it features a comprehensive orphan home database and dedicated applications for financial support, combating food wastage, contributing home-cooked meals, and donating essential items. The website promotes cause awareness and offers a personalized user experience. With a user-friendly interface, mobile responsiveness, and robust security measures, Nurture Orphan aims to streamline contributions while fostering a growing and engaged community committed to making a positive impact on the lives of underprivileged children.</p>
+      </div>
+    </section>
+     
+
+        <head>
+            <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+                  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+          </head>
+          <body>
+          <div class="donation-container">
+                      
+                      <div class="donation-box">
+                          <div class="title">Donation Information</div>
+                          
+                          <div class="fields">
+                              <input type="text" id="firstName" placeholder="First Name"> </input>
+                              <input type="text" id="lastName" placeholder="Last Name"> </input>
+                              <input type="text" id="email" placeholder="Email"> </input>
+                          </div>
+                          
+                          <div class="amount">
+                              <div class="button">Rs 50/-</div>
+                              <div class="button">Rs 100/-</div>
+                              <div class="button">Rs 500/-</div>
+                              <div class="button">Rs<input type="text" class="set-amount" placeholder=""> </input></div>
+                          </div>
+                          
+                          <div class="switch">
+                              <input type="radio" class="switch-input" name="view" value="One-Time" id="one-time" checked="">
+                              <label for="one-time" class="switch-label switch-label-off">One-Time</label>
+                              <input type="radio" class="switch-input" name="view" value="Monthly" id="monthly">
+                              <label for="monthly" class="switch-label switch-label-on">Monthly</label>
+                              <span class="switch-selection"></span>
+                          </div>
+                          
+                          <div class="checkboxes">
+                              <input type="checkbox" id="receipt" class="checkbox" />
+                              <label for="receipt">Email Me A Receipt</label>
+                              <br />
+                              <input type="checkbox" id="anon" class="checkbox" />
+                              <label for="anon">Give Anonymously</label>
+                              <br />
+                              <input type="checkbox" id="list" class="checkbox" />
+                              <label for="list">Add Me To Email List</label>
+                          </div>
+                          
+                          <div class="confirm">
+                              
+                          </div>
+                          
+                          <div class="donate-button"><i class="fa fa-credit-card"></i> Donate Now</div>
+                      </div>
+                      
+                  </div>
+          
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+          <script src="https://raw.githubusercontent.com/jerryluk/jquery.autogrow/master/jquery.autogrow-min.js"></script>
+          </body>
+
+
+     <!--contact section design-->
+     <section class="contact" id="contact">
+     <h2 class="heading">contact <span>us!</span></h2>
+     
+     <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="text" placeholder="Email Address">
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number">
+        <input type="text" placeholder="Email subject">
+      </div>
+      <textarea name="" id="" cols="100" rows="10" placeholder="Your Message" ></textarea>
+      <input type="Submit"  value="Send Message" class="btn">
+     </form>
+     </section>
+     <!--scroll reveal-->
+     <script src="https://unpkg.com/scrollreveal"></script>
+
+     <!--typed js-->
+     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+     
+    <script src="pw.js"> </script>
+
+
+    </body>
+</html>
